@@ -231,10 +231,10 @@ body {
   .btn--white::after {
     background-color: #fff; }
 
-.btn--white {
+.btn--green {
   background-color: #55c57a;
-  color: #777; }
-  .btn--white::after {
+  color: #fff; }
+  .btn--green::after {
     background-color: #55c57a; }
 
 .btn::after {
@@ -276,7 +276,7 @@ body {
 
 .bg-video {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   height: 100%;
   width: 100%;
@@ -473,3 +473,7 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+
+.form__input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem; }
